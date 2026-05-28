@@ -30,3 +30,40 @@ _En verde:_ Los archivos que ya se actualizaron con git add  y que estan listos 
 ```
 git status
 ```
+
+--------------
+
+### git add:
+    Este comando sirve para marcar o seleccionar los archivos que querés guardar en Git. O sea, Git detecta todos los cambios que hiciste, pero con git add vos le decís cuáles querés preparar para el próximo commit.
+    Después de usarlo, los archivos quedan listos para guardarse.
+
+**comando:**
+```
+git add nombre-del-archivo
+
+o para agregar todo:
+git add .
+```
+
+### git commit:
+    Este comando sirve para guardar los cambios que preparaste con git add. Es como sacar una foto del proyecto en ese momento para que quede registrado en el historial de Git.
+    Además, se le agrega un mensaje para explicar qué cambios hiciste.
+
+**comando:**
+```
+
+git commit -m "mensaje"
+
+Ejemplo:
+git commit -m "Agregué el menú principal"
+```
+
+### git push:
+    Este comando sirve para subir los cambios que guardaste con commit a GitHub o al repositorio remoto.
+    O sea, los cambios primero quedan en tu computadora y con git push se mandan a internet para que los demás puedan verlos o trabajar con la versión actualizada.
+
+**comando:**
+```
+git push origin main
+```
+
