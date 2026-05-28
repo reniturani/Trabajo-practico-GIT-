@@ -14,3 +14,10 @@ git checkout nombre-rama
 git checkout -b nueva-rama
 git switch nombre-rama
 git switch -c nueva-rama
+
+git merge:
+Este comando une ramas. Lo que hace es traer los cambios realizados en una rama y combinarlos con la rama en la que estas actualmente. Generalmente se usa cuando terminaste de trabajar en una rama secundaria y queres pasar esos cambios a la rama principal.
+
+Comando:
+git checkout main
+git merge nombre-rama 
