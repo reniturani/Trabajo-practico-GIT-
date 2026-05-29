@@ -1,6 +1,6 @@
 ## Integrante con la mayor cantidad de commits:
 **Comando empleado:** `git shortlog -sn`
-**Resultados:** Fuimos dos integrantes con la mayor cantidad de commits `6 AriadnaLavizzar - 6 renata turani`
+**Resultados:** Fuimos dos integrantes con la mayor cantidad de commits `7 AriadnaLavizzar`
 
 ---
 
@@ -32,13 +32,13 @@
 **Comando empleado:** `git log --stat --oneline`
 **Análisis** En el historial del respositorio se ve que todos los commits afectaron únicamente a un archivo a la vez. Por lo que decidimos seleccionar el commit con mayor impacto en cuando a líneas modificadas (añadidas + eliminadas)
 
-**Commit seleccionado:** `8455492`
-**Mensaje:** "Complete estadisticas.md y cree una carpeta capturas para agregar lo solicitado"
-    **Cantidad de archivos involucrados:** ** 2 archivos (`capturas/diff.jpeg` y `estadisticas.md`)
-    **Impacto total:** 39 inserciones y la adición de un archivo binario (imagen).
+**Commit seleccionado:** `98957e2`
+**Mensaje:** "termine de completar estadisticas.md, cambie una de las imagenes en capturas"
+    **Cantidad de archivos involucrados:** ** 4 archivos (`capturas/commit.jpeg` , `capturas/conflicto.jpeg`, `capturas/diff.jpeg` y `estadisticas.md`)
+    **Impacto total:** 4 files changed, 28 insertions (+), 17 deletions (-)
  
 A continuación adjunto la captura solicitada:
-![Captura del diff del commit 892226e](capturas/commit.jpeg)
+![Captura del diff del commit 892226e](capturas/commitMasCambios.jpeg)
 
 
 ---
