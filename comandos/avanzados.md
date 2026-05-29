@@ -20,9 +20,9 @@ Este comando une ramas. Lo que hace es traer los cambios realizados en una rama 
 
 Comando:
 git checkout main
-git merge nombre-rama 
+git merge nombre-rama
 
-------
+---
 
 git remote:
 Este comando sirve para conectar tu proyecto local con un repositorio remoto, por ejemplo uno de GitHub.
@@ -40,3 +40,6 @@ O sea, descarga la información más actualizada de GitHub para que puedas verla
 
 Comando:
 git fetch
+
+----
+
